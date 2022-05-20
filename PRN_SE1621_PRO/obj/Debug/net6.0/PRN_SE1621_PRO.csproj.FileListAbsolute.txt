@@ -1,0 +1,15 @@
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\bin\Debug\net6.0\PRN_SE1621_PRO.exe
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\bin\Debug\net6.0\PRN_SE1621_PRO.deps.json
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\bin\Debug\net6.0\PRN_SE1621_PRO.runtimeconfig.json
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\bin\Debug\net6.0\PRN_SE1621_PRO.dll
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\bin\Debug\net6.0\PRN_SE1621_PRO.pdb
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.AssemblyInfoInputs.cache
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.AssemblyInfo.cs
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.dll
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\refint\PRN_SE1621_PRO.dll
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.pdb
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\PRN_SE1621_PRO.genruntimeconfig.cache
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRO\obj\Debug\net6.0\ref\PRN_SE1621_PRO.dll

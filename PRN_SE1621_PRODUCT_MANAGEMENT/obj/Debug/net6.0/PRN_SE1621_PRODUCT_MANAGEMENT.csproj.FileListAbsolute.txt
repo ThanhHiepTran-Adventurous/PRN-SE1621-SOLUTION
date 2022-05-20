@@ -1,0 +1,5 @@
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRODUCT_MANAGEMENT\obj\Debug\net6.0\PRN_SE1621_PRODUCT_MANAGEMENT.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRODUCT_MANAGEMENT\obj\Debug\net6.0\PRN_SE1621_PRODUCT_MANAGEMENT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRODUCT_MANAGEMENT\obj\Debug\net6.0\PRN_SE1621_PRODUCT_MANAGEMENT.AssemblyInfoInputs.cache
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRODUCT_MANAGEMENT\obj\Debug\net6.0\PRN_SE1621_PRODUCT_MANAGEMENT.AssemblyInfo.cs
+C:\Users\Acer\OneDrive\Máy tính\Slide PRN211 - Thầy Đông\PRN-SE1621-CLASS\WorkspacePRN\PRN_SE1621_SOLUTION\PRN_SE1621_PRODUCT_MANAGEMENT\obj\Debug\net6.0\PRN_SE1621_PRODUCT_MANAGEMENT.csproj.CoreCompileInputs.cache
