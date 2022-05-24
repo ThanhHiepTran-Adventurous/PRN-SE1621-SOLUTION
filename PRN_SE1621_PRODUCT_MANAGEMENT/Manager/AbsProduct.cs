@@ -4,7 +4,7 @@
 public abstract class AbsProduct
 {
     public Product[] Products { get; set; }
-    public int Size { set;get } // cho biet so luong phan tu co that
+    public int Size { set; get; } // cho biet so luong phan tu co that
 
     public AbsProduct()
     {

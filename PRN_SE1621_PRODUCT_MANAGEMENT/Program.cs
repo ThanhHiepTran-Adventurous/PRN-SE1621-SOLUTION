@@ -3,7 +3,7 @@ using static System.Console;
 
 public class Program
 {
-    void Main()
+    public static void Main()
     {
         Product p = new Product();
         
@@ -12,6 +12,11 @@ public class Program
         p.Desc = "San pham moi nhat 2022";
         p.UnitPrice = 1500;
         p.StartDate = DateTime.Now;
+        
+        ProductManagement productManagement = new ProductManagement();
+        productManagement.Add(p);
+        productManagement.Add(new Product(2, "Macbook Pro 12", "Macbook xin nhat", 2500, new DateTime(year: 2022, month: 5, day: 23)));
+        productManagement.Display();
         WriteLine(p);
         ReadLine();
     }
