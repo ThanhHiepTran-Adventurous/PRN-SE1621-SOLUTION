@@ -16,8 +16,9 @@ public class Program
         ProductManagement productManagement = new ProductManagement();
         productManagement.Add(p);
         productManagement.Add(new Product(2, "Macbook Pro 12", "Macbook xin nhat", 2500, new DateTime(year: 2022, month: 5, day: 23)));
+        productManagement.Delete(p);
         productManagement.Display();
-        WriteLine(p);
+       // WriteLine(p);
         ReadLine();
     }
 }

@@ -25,7 +25,21 @@ public class ProductManagement : AbsProduct, IProduct
 
     public bool Delete(Product p)
     {
-        throw new NotImplementedException();
+        int index = 0;
+        foreach(Product item in this.Products)
+        {
+            index++;
+            if(item is not null && item.Id == p.Id)
+            {
+                for (int i = index; i < this.Products.Length - 1; i++)
+                {
+                    this.Products[i] = this.Products[i + 1];
+                }
+                this.Products[this.Products.Length - 1] = null;
+                return true;
+            }
+        }
+        return false;
     }
 
     public void Display()
