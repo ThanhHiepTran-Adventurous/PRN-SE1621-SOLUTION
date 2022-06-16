@@ -18,6 +18,7 @@
         private GroupBox grpContinued;
         private RadioButton raDisContinued;
         private RadioButton raContinued;
+        private Label lbPassword;
         private System.ComponentModel.IContainer components = null;
 
         
@@ -49,13 +50,17 @@
             this.grpContinued = new System.Windows.Forms.GroupBox();
             this.raDisContinued = new System.Windows.Forms.RadioButton();
             this.raContinued = new System.Windows.Forms.RadioButton();
+            this.lbPassword = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.grpContinued.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbProductID
             // 
             this.lbProductID.AutoSize = true;
-            this.lbProductID.Location = new System.Drawing.Point(44, 59);
+            this.lbProductID.Location = new System.Drawing.Point(44, 29);
             this.lbProductID.Name = "lbProductID";
             this.lbProductID.Size = new System.Drawing.Size(79, 20);
             this.lbProductID.TabIndex = 0;
@@ -75,7 +80,7 @@
             // txtProductId
             // 
             this.txtProductId.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.txtProductId.Location = new System.Drawing.Point(209, 59);
+            this.txtProductId.Location = new System.Drawing.Point(209, 29);
             this.txtProductId.Name = "txtProductId";
             this.txtProductId.Size = new System.Drawing.Size(343, 27);
             this.txtProductId.TabIndex = 1;
@@ -128,7 +133,7 @@
             // 
             // txtDesc
             // 
-            this.txtDesc.Location = new System.Drawing.Point(212, 374);
+            this.txtDesc.Location = new System.Drawing.Point(208, 374);
             this.txtDesc.Multiline = true;
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(343, 94);
@@ -142,11 +147,12 @@
             this.mskUnitPrice.Name = "mskUnitPrice";
             this.mskUnitPrice.Size = new System.Drawing.Size(266, 27);
             this.mskUnitPrice.TabIndex = 9;
+            this.mskUnitPrice.TextMaskFormat = System.Windows.Forms.MaskFormat.IncludePrompt;
             this.mskUnitPrice.ValidatingType = typeof(int);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(176, 541);
+            this.btnSave.Location = new System.Drawing.Point(179, 507);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(94, 29);
             this.btnSave.TabIndex = 10;
@@ -157,7 +163,7 @@
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnCancel.Location = new System.Drawing.Point(355, 541);
+            this.btnCancel.Location = new System.Drawing.Point(357, 507);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(94, 29);
             this.btnCancel.TabIndex = 11;
@@ -178,7 +184,7 @@
             // 
             this.grpContinued.Controls.Add(this.raDisContinued);
             this.grpContinued.Controls.Add(this.raContinued);
-            this.grpContinued.Location = new System.Drawing.Point(209, 279);
+            this.grpContinued.Location = new System.Drawing.Point(209, 292);
             this.grpContinued.Name = "grpContinued";
             this.grpContinued.Size = new System.Drawing.Size(346, 76);
             this.grpContinued.TabIndex = 13;
@@ -207,9 +213,46 @@
             this.raContinued.Text = "Continued";
             this.raContinued.UseVisualStyleBackColor = true;
             // 
+            // lbPassword
+            // 
+            this.lbPassword.AutoSize = true;
+            this.lbPassword.Location = new System.Drawing.Point(44, 75);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(70, 20);
+            this.lbPassword.TabIndex = 14;
+            this.lbPassword.Text = "Password";
+            this.lbPassword.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(209, 75);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(125, 27);
+            this.txtPassword.TabIndex = 15;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(574, 408);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 17;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(574, 383);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(262, 27);
+            this.dateTimePicker1.TabIndex = 18;
+            // 
             // FrmAddProduct
             // 
-            this.ClientSize = new System.Drawing.Size(630, 658);
+            this.AcceptButton = this.btnCancel;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.CancelButton = this.btnCancel;
+            this.ClientSize = new System.Drawing.Size(864, 720);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lbPassword);
             this.Controls.Add(this.grpContinued);
             this.Controls.Add(this.lbContinue);
             this.Controls.Add(this.btnCancel);
@@ -224,6 +267,7 @@
             this.Controls.Add(this.txtProductId);
             this.Controls.Add(this.lbProductName);
             this.Controls.Add(this.lbProductID);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmAddProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -294,6 +338,8 @@
 
         }
 
-
+        private TextBox txtPassword;
+        private MonthCalendar monthCalendar1;
+        private DateTimePicker dateTimePicker1;
     }
 }
